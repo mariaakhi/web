@@ -1,0 +1,86 @@
+/* Universal */
+body{
+   
+}
+
+/* xx Universal xx */
+
+/* Hero Section */
+.heroback{
+
+    margin-left:-30px;
+}
+.heroimg{
+   background-image: url(assets/getty_496612468_2000138820009280460_336567.jpg);
+   background-position: center center;
+   background-size:cover;
+   position:relative;
+   width:100%;
+   height:80vh;
+   display:flex;
+   align-items:center;
+   z-index: 0;
+}
+.imgherocolor{
+    background-image:linear-gradient(to right,rgb(0, 0, 0), rgba(0,0,0,0.4));
+    position:absolute;
+    width:100%;
+    height:80vh;
+    z-index:1;
+}
+.herotxt{
+    z-index: 12;
+    color:rgb(255, 255, 255);
+    margin-left: 4rem;
+}
+.tex{
+    font-family:'Staatliches', cursive;
+    font-size:4rem;
+    font-weight:700;
+    color: rgb(255, 255, 255);
+}
+/* xx Hero Section xx */
+
+/* Suggestion */
+.suggest-section{
+    padding-top: 100px;
+}
+.crime-thriller{
+    margin-top: 50px;
+}
+.crime-text{
+text-align: center;
+}
+.card-row{
+    padding-top: 40px;
+
+}
+.card{
+    margin-top: 20px;
+}
+.card-btn{
+    background-color: #fff;
+    border: 1px;
+}
+.suns-card{
+    background-color: #faf4cd;
+}
+.lost-card{
+    background-color: black;
+    color: white;
+}
+.love-card{
+    background-color: #e9bc7f;
+}
+.light-card{
+    background-color: #e6ae26;
+}
+.disappeared-card{
+    background-color: #66c8c9;
+}
+.girls-card{
+    background-color: #c62127;
+    color:white;
+}
+
+/* xx Suggestion xx */
