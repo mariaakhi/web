@@ -33,11 +33,6 @@ body{
     color:rgb(255, 255, 255);
     margin-left: 4rem;
 }
-.sin-btn{
-    font-size: 2rem;
-    padding-left: 30px;
-    padding-right: 30px;
-}
 .tex{
     font-family:'Staatliches', cursive;
     font-size:4rem;
@@ -108,6 +103,7 @@ text-align: center;
 .about-us{
     width:100%;
     margin-top: 100px;
+    margin-bottom: 100px;
 }
 .sub-head{
     color:rgb(73, 73, 73);
@@ -115,60 +111,34 @@ text-align: center;
 .about-txt{
     color:rgb(75, 75, 75);
 }
-/* xx about us xx */
+.about-top-img{
+    background-image: url(assets/253342.jpg);
+    background-position: center center;
+    background-size: cover;
+    position: relative;
+    width: 100%;
+    height:60vh;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+.about-top-color{
+    background-color: rgba(0, 0, 0, 0.521);
+    position: absolute;
+    width:100%;
+    height:60vh;
+    z-index:1;
+}
+.about-head{
+    font-family: 'Lobster', cursive;
+    font-size:4rem;
+    font-weight:700;
+    color: rgb(238, 238, 238);
+    z-index:3;
 
-/* Membercard */
-.member-card{
+}
+.about-page{
     margin-top: 100px;
+    margin-bottom: 50px;
 }
-.t-red{
-    color:#c62127;
-}
-.pc1:hover{
-    margin-top:-10px;
-    transition: 500ms;
-    background-color: #f6c1de;
-}
-.pc2:hover{
-    margin-top:-10px;
-    transition: 500ms;
-    background-color: #f8bf88;
-}
-.pc3:hover{
-    margin-top:-10px;
-    transition: 500ms;
-    background-color: #e38d8d;
-}
-.foot{
-    background-color: #c2c2c2;
-}
-/* xx Membercard xx */
-
-/* Footer */
-.foot{
-    margin-top:120px;
-}
-.foot-contain{
-    padding-top:20px;
-}
-.foot-img{
-    width:100px;
-    height:auto;
-}
-.list-a{
-    text-decoration: none;
-    color:rgb(39, 39, 39);
-}
-.foot-txt{
-    margin-top:20px;
-}
-.right-li{
-    margin-bottom: 15px;
-}
-.left-li{
-    margin-bottom: 15px;
-}
-.foot-ul{
-    list-style: none;
-}
-/* xx Footer xx */
+/* xx about us xx */
